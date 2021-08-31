@@ -16,4 +16,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       #run: docker build . --file acciones/action-a/Dockerfile --tag ping:$(date +%s)
-      run: docker build -t contenedor . -f ping.Dockerfile
+      run: docker build -t contenedor . -f action-a/ping.Dockerfile
