@@ -1,0 +1,12 @@
+name: Hacer ping a google
+on: push
+
+jobs:
+  build:
+    name: PING
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./action-a
+        with:
+          MY_NAME: "8.8.8.8"
