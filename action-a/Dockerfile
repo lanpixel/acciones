@@ -1,5 +1,5 @@
 FROM ubuntu
 
-RUN apt-get update && apt-get install iputils-ping
+RUN apt-get update && apt-get install -y iputils-ping
 
 ADD ping.sh ./ssh
