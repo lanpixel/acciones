@@ -1,0 +1,3 @@
+FROM ubuntu
+
+ADD ping.sh ./ssh
