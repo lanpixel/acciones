@@ -1,0 +1,16 @@
+name: "PING"
+description: "hace ping a google"
+
+inputs:
+  PING:
+    description: "A donde pinguear"
+    required: true
+    default: "8.8.4.4"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
